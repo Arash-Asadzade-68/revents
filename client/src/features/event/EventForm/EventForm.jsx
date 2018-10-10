@@ -35,11 +35,7 @@ class EventForm extends Component {
       this.setState({
         event: newEvent || emptyEvent
       })        
-    }
-    // this.setState({
-    //   event:newEvent
-    // })
-    
+    } 
   }
   onInputChange =(event,name)=>{
      const newEvent ={
