@@ -210,3 +210,34 @@ h2 {
 .ui.inverted.grey.header {
   font-family: 'IRANSans_LFN' !important;
 }
+
+.ui.comments .comment .avatar {
+  float: right;
+}
+
+.ui.comments .comment>.avatar~.content {
+
+  margin-right: 3.5em;
+
+}
+
+.ui.comments .comment .metadata {
+
+  margin-right: .5em;
+
+}
+
+.ui.comments .comment .comments {
+  padding-right: 2em !important;
+}
+
+.ui.inverted.segment>.ui.header {
+
+  font-family: 'IRANSans_LFN' !important;
+
+}
+.ui.list .list > .item > .icon + .content, .ui.list .list > .item > .image + .content, .ui.list > .item > .icon + .content, .ui.list > .item > .image + .content {
+
+  padding: 0 .5em 0 0;
+
+}
